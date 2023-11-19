@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Damion&family=EB+Garamond:wght@500&family=Lato:ital,wght@0,300;0,400;0,700;1,900&family=Noto+Serif+Devanagari:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--BT  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!--Header -->
+    <header>
+        <p class="log0"><img src="https://nipponenergy.com/wp-content/uploads/2020/11/logo-06.png"></p>
+        <div class="nav-list-icons-parant">
+            <ul class="nav-list" id="nav-list">
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Servies</a> </li>
+                <li> <a href="">About Us</a> </li>
+                <li> <a href=""> Battery</a></li>
+                <li> <a href="">Reviws</a> </li>
+                <li> <a href="">Contact Us</a> </li>
+                <li> <a href="">Solar Information</a> </li>
+            </ul>
+
+            <ul class="nav-icons">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+            </ul>
+        </div>
+        <li class="menubar" id="menubar">
+            <i class="fa-solid fa-bars"></i>
+        </li>
+    </header>
+    <!-- Header end -->
+
+
+    <!-- main banner start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1463173904305-ba479d2123b7?q=80&w=1916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- main banner end -->
+
+
+
+    <!--SCROLL SIDE ICONS START -->
+    <section class="side-social-icons-parant aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
+        <form class="form-inline d-flex   list-unstyled my-2 my-lg-0">
+            <li style=" background: #f47621;  border-radius: 19px; ">
+                <a class="nav-link" href="#">
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="#">
+                    <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="#">
+                    <i class="fa-brands fa-linkedin-in text-white"></i>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white" href="#">
+                    <i class="fa-brands fa-instagram text-white"></i>
+                </a>
+            </li>
+
+            <li class="nav-item">
+
+            </li>
+        </form>
+    </section>
+    <!-- SCROLL SIDE ICONS END -->
+
+
+
+
+    <!-- why nippon -->
+    <section class="section-gapping">
+        <div class="parnat-of-heading heading-bottom-space">
+            <h1>NIPPON ENERGY SOLOR SIMPLIFIED</h1>
+        </div>
+
+
+        <div class="container boxex-parant">
+            <div class="">
+                <p><img src="https://images.unsplash.com/photo-1542336391-ae2936d8efe4?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""></p>
+                <div>
+                    <h2>EXPERT CONSULTANTS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis laborum alias earum. Ex
+                        possimus temporibus aut, minus, enim corrupti laboriosam sit quo, id a rem ea quas eaque
+                        cupiditate!</p>
+                </div>
+            </div>
+            <div>
+                <p><img src="https://plus.unsplash.com/premium_photo-1671808063028-3a67407aeea7?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt=""></p>
+                <div>
+                    <h2>EXPERT CONSULTANTS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis laborum alias earum. Ex
+                        possimus temporibus aut, minus, enim corrupti laboriosam sit quo, id a rem ea quas eaque
+                        cupiditate!</p>
+                </div>
+            </div>
+            <div>
+                <p><img src="https://www.webbraininfotech.com/Proposal/nippon-energy-2/img/img-600x400-3.jpg" alt="">
+                </p>
+                <div>
+                    <h2>EXPERT CONSULTANTS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis laborum alias earum. Ex
+                        possimus temporibus aut, minus, enim corrupti laboriosam sit quo, id a rem ea quas eaque
+                        cupiditate!</p>
+                </div>
+            </div>
+            <div>
+                <p><img src="https://plus.unsplash.com/premium_photo-1677942035529-db39d2a25915?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UEFORUxTfGVufDB8fDB8fHww"
+                        alt=""></p>
+                <div>
+                    <h2>EXPERT CONSULTANTS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis laborum alias earum. Ex
+                        possimus temporibus aut, minus, enim corrupti laboriosam sit quo, id a rem ea quas eaque
+                        cupiditate!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why nippon end -->
+
+
+    <!-- Our Services start -->
+    <!-- <section class="section-gapping our-services-parant">
+        <div class="parnat-of-heading heading-bottom-space">
+            <h1>Our Services</h1>
+        </div>
+        <div class="services">
+            <div class="our-serices-first">
+                <div class="circle1">
+                </div>
+            </div>
+            <div class="our-serices-second">
+                <div class="circle2">
+                </div>
+            </div>
+
+    </section> -->
+
+
+
+
+    <!-- our services end -->
+
+    <section class="margin-top-b0ttom our-servicex-parant section-gapping d-lg-none">
+        <div class=" w-100  N-E-S-S">
+            <h1 class="d-flex justify-content-center align-items-center">Our Services </h1>
+        </div>
+
+
+        <div class="w-100">
+        </div>
+
+
+
+        <div class=" w-100 margin-top container-fluid d-flex justify-content-around d-lg-none ">
+            <div class="our-services-small-size1 d-flex">
+                <div class="ourServicesBg1 d-flex align-content-end">
+                    <p class="align-self-baseline"><img
+                            src="https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?q=80&amp;w=1742&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            width="100px" height="100px" class="rounded-circle firstImage aos-init aos-animate"
+                            data-aos="zoom-in">
+                    </p>
+
+                    <div class="ourServicesText w-75 aos-init aos-animate" data-aos="fade-left"
+                        data-aos-duration="3000 ">
+
+                        <h1>Buy Home Solar &amp; Solar System Repair</h1>
+                        <p>Buy American reliable solar panels and installer service customized to your needs that is
+                            cost-effective and efficient.
+
+                            Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                            installations..</p>
+                        <button type="button" class="btn btn-primary p-3">Explore More</button>
+                    </div>
+                </div>
+
+                <div class="our-services-small-size1-text1 ">
+                    <h1>Buy Home Solar &amp; Solar System Repair</h1>
+                    <p>Buy American reliable solar panels and installer service customized to your needs that is
+                        cost-effective and efficient.
+
+                        Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                        installations..</p>
+                    <button type="button" class="btn btn-primary p-3">Explore More</button>
+                </div>
+            </div>
+        </div>
+        <div class="our-services-small-size2">
+            <div class="ourServicesBg2 d-flex align-content-end ">
+                <p class="align-self-baseline"><img
+                        src="https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?q=80&amp;w=1742&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        width="100px" height="100px" class="rounded-circle firstImage aos-init aos-animate"
+                        data-aos="zoom-in">
+                </p>
+                <div class="ourServicesText2 w-100 aos-init aos-animate" data-aos="fade-left" data-aos-duration="3000 ">
+
+                    <h1>Solar System Repair</h1>
+                    <p>Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                        installations.</p>
+                    <button type="button" class="btn btn-primary p-3">Explore More</button>
+                </div>
+            </div>
+
+            <div class="our-services-small-size1-text2 " data-aos="fade-left" data-aos-duration="3000 ">
+
+                <h1>Solar System Repair</h1>
+                <p>Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                    installations.</p>
+                <button type="button" class="btn btn-primary p-3">Explore More</button>
+            </div>
+        </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <section class="margin-top-b0ttom our-servicex-parant section-gapping d-none d-lg-block">
+        <div class=" w-100  N-E-S-S">
+            <h1 class="d-flex justify-content-center align-items-center">Our Services </h1>
+        </div>
+
+
+        <div class="w-100">
+        </div>
+
+
+
+        <div class=" w-100 margin-top container-fluid d-flex justify-content-around  ">
+
+            <div class="ourServicesBg1 d-flex align-content-end">
+                <p class="align-self-baseline"><img
+                        src="https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?q=80&amp;w=1742&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        width="100px" height="100px" class="rounded-circle firstImage aos-init aos-animate"
+                        data-aos="zoom-in">
+                </p>
+
+                <div class="ourServicesText w-75 aos-init aos-animate" data-aos="fade-left" data-aos-duration="3000 ">
+
+                    <h1>Buy Home Solar &amp; Solar System Repair</h1>
+                    <p>Buy American reliable solar panels and installer service customized to your needs that is
+                        cost-effective and efficient.
+
+                        Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                        installations..</p>
+                    <button type="button" class="btn btn-primary p-3">Explore More</button>
+                </div>
+
+
+            </div>
+            <div class="our-services-small-size2">
+
+                <p class="align-self-baseline"><img
+                        src="https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?q=80&amp;w=1742&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        width="100px" height="100px" class="rounded-circle firstImage aos-init aos-animate"
+                        data-aos="zoom-in">
+                </p>
+                <div class="ourServicesText2 w-100 aos-init aos-animate" data-aos="fade-left" data-aos-duration="3000 ">
+
+                    <h1>Solar System Repair</h1>
+                    <p>Don’t lose on your solar production. We provide same day service for nearly all solar panel
+                        installations.</p>
+                    <button type="button" class="btn btn-primary p-3">Explore More</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Testimonial start -->
+    <section class="testimonail-parant">
+        <div class="parnat-of-heading heading-bottom-space">
+            <h1>Testimonial</h1>
+        </div>
+
+        <div class="testimonail container">
+            <div class="testimonial-text-parant">
+                <div>
+                    <h2>Our Customers love what we do</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate excepturi suscipit
+                        dignissimos,
+                        quo nostrum hic vero expedita porro, iure, blanditiis culpa natus eum atque sunt praesentium
+                        maxime
+                        recusandae sequi fugit.</p>
+                </div>
+                <div class="testimonail-text-people">
+                    <h2>JHONE CAPTION</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deleniti ex esse similique ullam
+                        sint
+                        eius quia necessitatibus quibusdam quod? Maiores vitae iste delectus modi accusantium, incidunt
+                        unde
+                        obcaecati possimus!</p>
+                </div>
+
+            </div>
+
+            <div class="testimonial-big-images">
+                <p> <img
+                        src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww">
+                </p>
+                <ul class="testi-small-iamges">
+                    <li class=" aos-init aos-animate" data-aos="zoom-in"> <img
+                            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww">
+                    </li>
+                    <li data-aos="zoom-in" class="aos-init aos-animate"> <img
+                            src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fHww">
+                    </li>
+                    <li data-aos="zoom-in" class="aos-init aos-animate"> <img
+                            src="https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D">
+                    </li>
+                    <li data-aos="zoom-in" class="aos-init aos-animate"> <img
+                            src="https://images.unsplash.com/photo-1533128361669-69c065857a13?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tYW4lMjBpbmRpYW58ZW58MHx8MHx8fDA%3D">
+                    </li>
+                    <li data-aos="zoom-in" class="aos-init aos-animate"> <img
+                            src="https://images.unsplash.com/photo-1664575603992-0f17b771dd91?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d29tYW58ZW58MHx8MHx8fDA%3D">
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Testimonial end -->
+
+
+
+
+
+    <!-- Solar Panel Installation Process start -->
+    <section class="Panel-Installation-parant section-gapping">
+        <div class="parnat-of-heading heading-bottom-space">
+            <h1> Solar Panel Installation Process</h1>
+        </div>
+
+        <div class="Panel-Installation">
+            <div class="step1">
+
+            </div>
+            <div class="step2">
+            </div>
+            <div class="step3">
+            </div>
+            <div class="step4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Panel Installation Process ends -->
+
+
+
+
+    <!-- our team start -->
+    <section class="Experienced-parant ">
+
+
+        <div class="  N-E-S-S d-flex justify-content-end align-content-center">
+            <h1 class="align-self-center w-100 me-5  text-center"> OUR TEAM </h1>
+            <p></p>
+        </div>
+
+
+
+        <div class="card Experienced d-flex " style="width: 18rem;">
+            <img src="https://www.webbraininfotech.com/Proposal/nippon-energy-2/img/team-1.jpg" width="100px"
+                class="card-img-top rounded-circle mt-4" alt="...">
+            <div class="card-body card-body ">
+                <h5 class="card-title mt-4">Charli Paut</h5>
+                <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Enginner</li>
+            </ul>
+            <div class="our-team-social-icon">
+                <form class="form-inline d-flex   list-unstyled my-2 my-lg-0">
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                    </li>
+                </form>
+            </div>
+        </div>
+        <div class="card Experienced d-flex " style="width: 18rem;">
+            <img src="https://www.webbraininfotech.com/Proposal/nippon-energy-2/img/team-2.jpg" width="100px"
+                class="card-img-top rounded-circle mt-4" alt="...">
+            <div class="card-body card-body mt-4">
+                <h5 class="card-title">Charli Paut</h5>
+                <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+            <ul class="list-group list-group-flush ">
+                <li class="list-group-item">Enginner</li>
+            </ul>
+            <div class="our-team-social-icon">
+                <form class="form-inline d-flex   list-unstyled my-2 my-lg-0">
+                    <li>
+                        <a class="nav-link " href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                    </li>
+                </form>
+            </div>
+        </div>
+        <div class="card Experienced d-flex " style="width: 18rem;">
+            <img src="https://www.webbraininfotech.com/Proposal/nippon-energy-2/img/team-3.jpg" width="100px"
+                class="card-img-top rounded-circle mt-4" alt="...">
+            <div class="card-body card-body mt-4">
+                <h5 class="card-title">Charli Paut</h5>
+                <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Enginner</li>
+            </ul>
+            <div class="our-team-social-icon">
+                <form class="form-inline d-flex   list-unstyled my-2 my-lg-0">
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                    </li>
+                </form>
+            </div>
+        </div>
+        <div class="card Experienced d-flex " style="width: 18rem;">
+            <img src="https://www.webbraininfotech.com/Proposal/nippon-energy-2/img/team-1.jpg" width="100px"
+                class="card-img-top rounded-circle mt-4" alt="...">
+            <div class="card-body card-body mt-4">
+                <h5 class="card-title">Charli Paut</h5>
+                <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+            <ul class="list-group list-group-flush ">
+                <li class="list-group-item">Enginner</li>
+            </ul>
+            <div class="our-team-social-icon">
+                <form class="form-inline d-flex   list-unstyled my-2 my-lg-0">
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                    </li>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- our team ends -->
+
+
+
+
+    <!-- our community start -->
+
+    <section class="ourCommunity-Parant section-gapping">
+
+        <div class=" parnat-of-heading heading-bottom-space">
+            <h1>OUR COMUNITY </h1>
+        </div>
+
+
+        <div class="logoMarqueeSection ourCommunity">
+            <div class="container" id="logoMarqueeSection ">
+                <div class="default-content-container flex items-center">
+                    <div
+                        class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block margin-top">
+                        <div class="marquee" style="animation-duration: 57s;">
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/Solaria.jpeg" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/mission-solar.png" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/enphase.jpg" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/eln.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/hero.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/ygrene.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+
+
+                        </div>
+                        <div class="marquee" style="animation-duration: 57s;">
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/Solaria.jpeg" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/mission-solar.png" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img
+                                    src="https://nipponenergy.com/wp-content/uploads/2021/01/enphase.jpg" title=""
+                                    class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/eln.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/hero.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                            <a target="_blank"><img src="https://nipponenergy.com/wp-content/uploads/2021/01/ygrene.jpg"
+                                    title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our community ends -->
+
+    <!-- Take oppoiments  start -->
+    <section class="container-fluid  margin-top-b0ttom OPPIMENT-FILLFORM-PARANT section-gapping">
+
+        <div class="w-100 justify-content-evenly promises-shadow promisesBoxesParant d-flex gap71px">
+            <div class="d-flex flex-column w-100">
+                <div class=" N-E-S-S d-flex justify-content-end align-content-center">
+                    <p class="whyNeppon ">
+                    </p>
+                    <h1 class="text-center align-self-center w-100 section-gapping"> TAKE OPPOIMENT</h1>
+                    <p></p>
+                </div>
+
+                <div class="calendar w-100  text-end">
+                    <div class="header">November 2023</div>
+                    <div class="days">
+                        <div class="day">Sun</div>
+                        <div class="day">Mon</div>
+                        <div class="day">Tue</div>
+                        <div class="day">Wed</div>
+                        <div class="day">Thu</div>
+                        <div class="day">Fri</div>
+                        <div class="day">Sat</div>
+                        <!-- Days -->
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                        <div class="day">8</div>
+                        <div class="day">9</div>
+                        <div class="day">10</div>
+                        <div class="day">11</div>
+                        <div class="day">12</div>
+                        <div class="day">13</div>
+                        <div class="day">14</div>
+                        <div class="day">15</div>
+                        <div class="day">16</div>
+                        <div class="day">17</div>
+                        <div class="day">18</div>
+                        <div class="day">19</div>
+                        <div class="day">20</div>
+                        <div class="day">21</div>
+                        <div class="day">22</div>
+                        <div class="day">23</div>
+                        <div class="day">24</div>
+                        <div class="day">25</div>
+                        <div class="day">26</div>
+                        <div class="day">27</div>
+                        <div class="day">28</div>
+                        <div class="day">29</div>
+                        <div class="day">30</div>
+                    </div>
+                    <button type="button" class="btn btn-primary mt-2 text-end">SUSMIT</button>
+                </div>
+                <div>
+                </div>
+            </div>
+
+
+
+            <div class="form-container w-100 ">
+                <div class="d-flex flex-column justify-content-center  w-100">
+                    <div class=" N-E-S-S d-flex justify-content-end align-content-center">
+                        <p class="whyNeppon ">
+                        </p>
+                        <h1 class="text-center align-self-center w-100 section-gapping"> FiLL THE FORM</h1>
+                        <p></p>
+                    </div>
+
+                    <form class="p-2 w-70 align-self-center">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required="">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required="">
+
+                        <label for="suggestion">type Message:</label>
+                        <textarea id="suggestion" name="suggestion" rows="4" required=""></textarea>
+
+                        <button type="submit" class="mt-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- oppoiments  ends -->
+
+    <!-- footer start -->
+
+    <footer class="">
+
+        <div class="margin-top-b0ttom list-unstyled">
+            <div class="d-flex justify-content-center">
+                <li style=" border-radius: 19px; ">
+                    <a class="nav-link text-white" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link text-white" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav-link text-white" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link text-white" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+
+            </div>
+
+            <div class="text-white">
+                <p>©2023 Nippon Energy | Website Design &amp; Development By Web Brain InfoTech</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+@media screen and (max-width: 576px) {
+  .log0 {
+    width: 200px;
+  }
+  header {
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .nav-list-icons-parant {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 12%;
+    background-color: black;
+    border-radius: 17px;
+    padding: 16px 0px;
+    z-index: 9;
+    height: 89vh;
+    width: 50vh;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menubar {
+    display: block;
+  }
+  .nav-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-list-icons-parant ul li a {
+    color: white;
+  }
+
+  .nav-list-icons-parant ul li {
+    color: white;
+    font-size: 12px;
+  }
+
+  /* why nippon start */
+  .parnat-of-heading {
+    margin-bottom: 50px;
+  }
+
+  .boxex-parant {
+    grid-template-columns: repeat(1, auto);
+    gap: 0px;
+  }
+  .boxex-parant > div {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxex-parant > div img {
+    width: 40vh !important;
+  }
+  .boxex-parant > div:nth-child(3),
+  :nth-child(4) {
+    flex-direction: column;
+  }
+
+  /* Testimonail*/
+
+  .testimonail {
+    padding: 0 40px;
+    grid-template-columns: repeat(1, auto);
+  }
+  .testimonial-big-images p img {
+    width: 89vw;
+  }
+
+  .testi-small-iamges li img {
+    width: 45px;
+    height: 45px;
+  }
+  .testi-small-iamges {
+    bottom: 72px;
+    right: 5%;
+  }
+
+  /* calander start */
+  .promisesBoxesParant {
+    flex-direction: column;
+  }
+  .promisesBoxesParant form {
+    width: 50vw !important;
+    padding: 0 20px;
+  }
+
+  .Experienced-parant {
+    grid-template-columns: repeat(1, auto);
+    display: grid;
+  }
+  .Experienced-parant div:first-child {
+    grid-column: 1/-1;
+  }
+
+  /* our services */
+
+  .ourServicesText,
+  .ourServicesText2 {
+    display: none;
+  }
+  .ourServicesBg2 img,
+  .ourServicesBg1 img {
+    display: none;
+  }
+
+  .our-services-small-size1-text1,
+  .our-services-small-size1-text2 {
+    display: block;
+  }
+  .ourServicesBg2 {
+    width: 56%;
+    padding-bottom: 56%;
+  }
+
+  .our-servicex-parant {
+    text-align: center;
+  }
+  .our-services-small-size1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-services-small-size2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 776px) and (min-width: 576px) {
+  .log0 {
+    width: 15vw;
+  }
+  .nav-list-icons-parant {
+    padding-right: 10px;
+    justify-content: end;
+  }
+
+  .nav-icons {
+    display: none;
+    position: absolute;
+    top: 13px;
+    z-index: 99;
+    right: 2%;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .nav-icons li:first-child {
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+  }
+
+  .nav-list {
+    font-size: 12px;
+    gap: 18.6px;
+  }
+
+  .menubar {
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+  }
+
+  /* why nippon start */
+  .parnat-of-heading {
+    margin-bottom: 50px;
+  }
+
+  .boxex-parant {
+    grid-template-columns: repeat(1, auto);
+    gap: 36px;
+  }
+  .boxex-parant > div {
+    flex-direction: row;
+  }
+  .boxex-parant div img {
+    width: 35vw;
+  }
+  .boxex-parant > :nth-child(3) {
+    flex-direction: row !important;
+  }
+  .boxex-parant > div:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+  .boxex-parant > div:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  /* Testimonail*/
+
+  .testimonail {
+    padding: 0 40px;
+    grid-template-columns: repeat(1, auto);
+  }
+  .testimonial-big-images p img {
+    width: 100%;
+  }
+
+  .testi-small-iamges li img {
+    width: 55px;
+    height: 55px;
+  }
+  .testi-small-iamges {
+    bottom: 72px;
+    right: 5%;
+  }
+
+  /* calander start */
+  .promisesBoxesParant {
+    flex-direction: column;
+  }
+
+  .promisesBoxesParant form {
+    width: 70vw;
+  }
+
+  /* calander start */
+  .promisesBoxesParant {
+    flex-direction: column;
+  }
+  .promisesBoxesParant form {
+    width: 50vw !important;
+    padding: 0 20px;
+  }
+
+  .Experienced-parant {
+    grid-template-columns: repeat(2, auto);
+    display: grid;
+  }
+  .Experienced-parant div:first-child {
+    grid-column: 1/-1;
+  }
+
+  /* our services */
+
+  .ourServicesText,
+  .ourServicesText2 {
+    display: none;
+  }
+  .ourServicesBg2 img,
+  .ourServicesBg1 img {
+    display: none;
+  }
+
+  .our-services-small-size1-text1,
+  .our-services-small-size1-text2 {
+    display: block;
+  }
+
+  
+  /* our services */
+
+  .ourServicesText,
+  .ourServicesText2 {
+    display: none;
+  }
+  .ourServicesBg2 img,
+  .ourServicesBg1 img {
+    display: none;
+  }
+
+  .our-services-small-size1-text1,
+  .our-services-small-size1-text2 {
+    display: block;
+  }
+  .ourServicesBg2 {
+    width: 56%;
+    padding-bottom: 56%;
+  }
+
+  .our-servicex-parant {
+    text-align: center;
+  }
+  .our-services-small-size1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-services-small-size2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 776px) {
+  .log0 {
+    width: 205px;
+  }
+
+  .nav-list {
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .nav-icons {
+    font-size: 12px;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  /* why nippon start */
+  .parnat-of-heading {
+    margin-bottom: 50px;
+    gap: 10px !important;
+  }
+
+  .boxex-parant {
+    grid-template-columns: repeat(1, auto);
+    gap: 36px;
+  }
+  .boxex-parant > div {
+    flex-direction: row;
+  }
+  .boxex-parant div img {
+    width: 35vw;
+  }
+  .boxex-parant > :nth-child(3) {
+    flex-direction: row !important;
+  }
+  .boxex-parant > div:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+  .boxex-parant > div:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  /* Testimonail*/
+
+  .testimonail {
+    padding: 0 40px;
+    grid-template-columns: repeat(1, auto);
+  }
+  .testimonial-big-images p img {
+    width: 100%;
+  }
+
+  .testi-small-iamges li img {
+    width: 55px;
+    height: 55px;
+  }
+  .testi-small-iamges {
+    bottom: 72px;
+    right: 5%;
+  }
+  /* calaner start */
+  .promisesBoxesParant form {
+    width: 50vw !important;
+    padding: 0 20px;
+  }
+
+  /* calander start */
+  .promisesBoxesParant {
+    flex-direction: column;
+  }
+  .promisesBoxesParant form {
+    width: 50vw !important;
+    padding: 0 20px;
+  }
+
+  .Experienced-parant {
+    grid-template-columns: repeat(2, auto);
+    display: grid;
+  }
+  .Experienced-parant div:first-child {
+    grid-column: 1/-1;
+  }
+
+  
+  /* our services */
+
+  .ourServicesText,
+  .ourServicesText2 {
+    display: none;
+  }
+  .ourServicesBg2 img,
+  .ourServicesBg1 img {
+    display: none;
+  }
+
+  .our-services-small-size1-text1,
+  .our-services-small-size1-text2 {
+    display: block;
+  }
+  .ourServicesBg2 {
+    width: 56%;
+    padding-bottom: 56%;
+  }
+
+  .our-servicex-parant {
+    text-align: center;
+  }
+  .our-services-small-size1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-services-small-size2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  /* why nippon start */
+  .parnat-of-heading {
+    margin-bottom: 50px;
+  }
+
+  .boxex-parant {
+    grid-template-columns: repeat(2, auto);
+    gap: 36px;
+  }
+  .boxex-parant > div {
+    flex-direction: column;
+  }
+  .boxex-parant div img {
+    width: 35vw;
+  }
+  .boxex-parant > :nth-child(3) {
+    flex-direction: column !important;
+  }
+  .boxex-parant > div:nth-child(2) {
+    flex-direction: column;
+  }
+  .boxex-parant > div:nth-child(4) {
+    flex-direction: column;
+  }
+}
